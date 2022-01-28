@@ -1,0 +1,23 @@
+---
+title: "Presentation Two"
+subtitle: "⚔<br/>with xaringan"
+author: "Rose Franzen"
+institute: "Arcus Education"
+date: "2022-01-28 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+# First slide
+- This is the second presentation. I care less about trialing the features here
+- In fact, the only thing I really care about is whether I can have both of these be hosting using the same repo on GitHub. 
+
+---
+# Second slide
+- just doing this for the sake of having a second slide. cool.
+--
+

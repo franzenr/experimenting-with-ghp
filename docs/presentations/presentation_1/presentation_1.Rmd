@@ -1,0 +1,41 @@
+---
+title: "Presentation One"
+subtitle: "⚔<br/>with xaringan"
+author: "Rose Franzen"
+institute: "Arcus Education"
+date: "2022-01-28 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+# First slide
+- displaying all bullets at once
+- here's a second bullet
+- and a third 
+
+???
+here are some speaker notes, to make sure you don't forget to talk about all three bullets. 
+---
+# Second slide
+- Now we're going to do incremental slides
+--
+
+- so this second bullet should be hidden at first
+
+???
+there are speaker notes here, but they shouldn't be seen on the first bullet, only when on the second. 
+---
+# Third slide
+- another incremental slide
+???
+This time, we want the speaker notes to show up for the entire slide though, not just once all the increments have been revealed. 
+--
+
+- second bullet, this one is incremental
+--
+
+- third bullet, also incremental. the speaker notes should have been visible for all of these though. 
